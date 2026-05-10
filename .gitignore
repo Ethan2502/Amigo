@@ -1,0 +1,9 @@
+.history/
+*.kicad_sch.lck
+*.kicad_pro.lck
+.DS_Store
+*.kicad_prl
+Amigo-backups/
+*-backups/
+*-rescue/
+*.bak
