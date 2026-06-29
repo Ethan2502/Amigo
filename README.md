@@ -2,6 +2,8 @@
 
 **Amigo** is an open-source, smart desktop companion device designed to help you stay focused while adding a touch of personality to your workspace. 
 
+I created it because I want to have a more phone free experience in the morning and in general. Obviously a lame but logical excuse everymorning to have it near you is because you need alarms. Sometimes you actually want to be productive with a phone like setting timers, take brain breaks, and more. When using a phone its easy to fall into a trap of using it too long after only one "brain break". I hope Amigo keeps you on task and makes you less dependent on your phone. 
+
 Housed in a compact 80×80×80mm 3D-printed cube, Amigo features a tactile 3×3 mechanical keyboard, a 2.8" vibrant color display, and a dedicated speaker. Powered by an ESP32-S3 microcontroller, it pairs with your phone over BLE to enforce focus sessions, acts as an animated desktop buddy, and even runs retro mini-games!
 
 ---
@@ -57,7 +59,7 @@ Amigo supports multi-tenant content architecture. By checking in with a server u
 - [x] DRC check & Bug Audit
 - [x] Gerbers generated and PCBs ordered
 - [x] Components & Peripherals sourced
-- [ ] 3D Enclosure CAD (In Progress)
+- [x] 3D Enclosure CAD
 - [ ] Hardware Assembly
 - [ ] Firmware Development
 - [ ] Companion Phone App (Android/BLE)
