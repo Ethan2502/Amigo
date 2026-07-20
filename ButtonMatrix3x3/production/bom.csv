@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"CHOC1, CHOC2, CHOC3, CHOC4, CHOC5, CHOC6, CHOC7, CHOC8, CHOC9",SW_choc_v1+v2_HS_CPG135001S30_1u,9,Choc_SW,
+"D1, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD-123,9,1N4148W,
+J1,PinHeader_1x08_P2.54mm_Vertical,1,ButtonRibbonConnector,
+"R1, R2, R3",0603,3,10k,
