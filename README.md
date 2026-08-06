@@ -1,6 +1,6 @@
 # Amigo
 
-A desk companion cube that does the useful things your phone does, and is a physical blocker to your phone instead of an app which is within fingers reach.
+A desk companion cube that takes over the things you unlock your phone for, so you have no reason to pick it up.
 
 ![Amigo assembled](images/01-assembled-render.png)
 
@@ -8,14 +8,14 @@ A desk companion cube that does the useful things your phone does, and is a phys
 
 ## Why I made it
 
-This is my project that I got an idea for when my phone's alarm went off. I always tend to use my phone a little bit in bed when I wake up. I thought I needed my phone to wake me up but then I thought of a product that replaced all the "utility" items your phone could do but without the distractions. I also thought to take this a step further and make a product that could block screentime on your phone.
+This is my project that I got an idea for when my phone's alarm went off. I always tend to use my phone a little bit in bed when I wake up. I thought I needed my phone to wake me up but then I thought of a product that replaced all the "utility" items your phone could do but without the distractions. I used screentime apps before but they always make it in fingers reach to disable it. Amigo takes the other approach. Instead of locking the phone down, it takes over the jobs you unlock the phone for in the first place, so there is nothing to reach for.
 
-Why does it need to physically block screentime and not an app? I used apps before but they always make it in fingers reach to disable it. So this product is a phone buddy to help you stay focused.
+Physically locking the phone away is something I want to add later. The current design does not do it.
 
 ## What it does
 
 1. **Wakes you up.** Alarm clock, so your phone doesn't have to be the thing next to your bed.
-2. **Blocks your phone.** The buddy blocks your phone so it isn't in finger's reach to re enable it.
+2. **Keeps your phone down.** The alarm, timer, and display all live on the cube, so there is no reason to unlock your phone for any of them.
 3. **Utility stuff.** Timers, stopwatch, and the other simple things you'd normally pull your phone out for.
 4. **Desk toy.** Displays pictures on a slide deck while you work.
 5. **Classroom toy.** Small kids in elementary school can use it to develop cognitive function with memory games or reaction time tests. It can teach them things through games where they answer questions using the keypad as arrows or other controls to move, fight, and so on. It's a lot cheaper than buying a brand new computer or phone, so it's a budget friendly classroom toy.
@@ -104,7 +104,7 @@ When you solder the button matrix it is important to make sure your diodes are t
 Again you can pull up the file to see which way the order is for the pin connectors. You can then work through it wire by wire by counting. This is the most concrete way to do it withought messing up. To be extra secure you can use some hot glue and secure the connection. 
 
 ### 6. Assemble the Cube
-Two options:
+
 Use M3 screws and nuts to screw everything in. There should be a hole for each screw.
 
 ### 7. Flash the Firmware
@@ -149,12 +149,12 @@ The main board was ordered as PCBA, so the surface-mount parts in the first tabl
 
 | Ref | Part | Qty | Unit | Total | Link |
 | --- | --- | --- | --- | --- | --- |
-| CHOC1-CHOC9 | Kailh Choc low profile hotswap socket | 10 | $0.78 | $7.78 | [Amazon](https://www.amazon.com/Mechkeeb-Kailh-Low-Hot-swappable-Socket/dp/B0BS3L174L) |
+| CHOC1-CHOC9 | Kailh Choc low profile hotswap socket | 9 | $0.78 | $7.02 | [Amazon](https://www.amazon.com/Mechkeeb-Kailh-Low-Hot-swappable-Socket/dp/B0BS3L174L) |
 | | Kailh Choc low profile keyswitch | 9 | $1.92 | $17.28 | [Amazon](https://www.amazon.com/KAILH-Official-Chocolate-Mechanical-Keyboard/dp/B0B3MNBPSP) |
 | D1-D9 | 1N4148W diode, SOD-123 | 9 | $0.01 | $0.08 | [C908248](https://www.lcsc.com/product-detail/C908248.html) |
 | J1 | Header 1x08 2.54 mm (ribbon to main board) | 1 | $1.54 | $1.54 | [C3320851](https://www.lcsc.com/product-detail/C3320851.html) |
 | R1, R2, R3 | 10 kΩ 1%, 0603 | 3 | $0.01 | $0.02 | [C98220](https://www.lcsc.com/product-detail/C98220.html) |
-| | **Button matrix subtotal** | | | **$20.48** | |
+| | **Button matrix subtotal** | | | **$25.94** | |
 
 Keycaps are 3D printed from `cad/stl/keycaps.stl`, so there is nothing to buy for them.
 
@@ -165,18 +165,19 @@ Keycaps are 3D printed from `cad/stl/keycaps.stl`, so there is nothing to buy fo
 | HiLetgo 2.8 in ILI9341 SPI display, 240x320 | 1 | $16.39 | $16.39 | [Amazon](https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B) |
 | MAX98357A I2S audio amp breakout | 1 | $6.88 | $6.88 | [Amazon](https://www.amazon.com/MAX98357-MAX98357A-Amplifier-Interface-Raspberry/dp/B0DPJRLMDJ) |
 | CQRobot speaker, JST-PH 2.0 mm interface | 1 | $7.99 | $7.99 | [Amazon](https://www.amazon.com/CQRobot-JST-PH2-0-Interface-Electronic-Projects/dp/B0738NLFTG) |
-| EEMB 1100 mAh single-cell LiPo, JST connector | 4 | $6.15| $24.59 | [Amazon](https://www.amazon.com/EEMB-1100mAh-Battery-Rechargeable-Connector/dp/B08VRYS8FT) |
+| EEMB 1100 mAh single-cell LiPo, JST connector | 1 | $6.15 | $6.15 | [Amazon](https://www.amazon.com/EEMB-1100mAh-Battery-Rechargeable-Connector/dp/B08VRYS8FT) |
 | Rocker power switch | 1 | $1.35 | $1.35 | [AliExpress](https://www.aliexpress.us/item/3256812208202705.html) |
 | Jumper wires, board-to-board ribbon link | 1 | $6.98 | $6.98 | [Amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) |
 | PLA filament for case, button cover, display mount, keycaps | 1 | $20.00 | $20.00 | [Polymaker](https://shop.polymaker.com/products/polymaker-pla-pro?variant=41550910652473) |
+| M3 screws and nuts pack of 100 | 1 | $0.15 | $15.30 | https://www.mcmaster.com/products/screws/socket-head-screws-2~/steel-socket-head-screws~~/?s=m3+screws |
 | PCB fabrication: main board PCBA and button matrix bare PCB | 1 | $50.65 | $50.65 | [JLCPCB](https://jlcpcb.com/) |
-| | | | **$134.83** | |
+| | | | **$116.39 plus fasteners** | |
+
+The Amazon parts ship in fixed pack sizes rather than the exact count the build uses. The Unit column is the per-item price and the Total is what one Amigo consumes, so your checkout total will be higher.
 
 ### Total
 
-**$53.33 so far**, with seven rows still unpriced. The two PCB rows are the largest of those.
-
-> TODO before submitting: price the Choc sockets and switches, the display, the battery, the jumper wires, and split the roughly $70 you spent on fabrication into a main board figure and a button matrix figure. Note the pack size next to the Amazon prices, since those ship in fixed counts rather than the 9 the board needs.
+**$157.80 plus fasteners** to build one Amigo: $15.47 for the main board, $25.94 for the button matrix, and $116.39 in off-board parts and fabrication. Fabrication is the single largest line at $50.65.
 
 ## Tools used
 

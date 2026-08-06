@@ -1,35 +1,36 @@
 Board,Reference,Part,LCSC Part #,Quantity,Unit Price,Total Price,Link
 Main board,U3,ESP32-S3-WROOM-1-N16R8,C2913202,1,$5.16,$5.16,https://www.lcsc.com/product-detail/C2913202.html
-Main board,U1,TP4056-42-ESOP8 LiPo charger (ESOP-8),C16581,1,$0.1864,$0.19,https://www.lcsc.com/product-detail/C16581.html
-Main board,U2,AP2112K-3.3TRG1 LDO (SOT-23-5),C23380830,1,$0.1106,$0.11,https://www.lcsc.com/product-detail/C23380830.html
+Main board,U1,TP4056-42-ESOP8 LiPo charger (ESOP-8),C16581,1,$0.19,$0.19,https://www.lcsc.com/product-detail/C16581.html
+Main board,U2,AP2112K-3.3TRG1 LDO (SOT-23-5),C23380830,1,$0.11,$0.11,https://www.lcsc.com/product-detail/C23380830.html
 Main board,J1,USB4085-GF-A USB-C receptacle,C7095263,1,$1.42,$1.42,https://www.lcsc.com/product-detail/C7095263.html
-Main board,J2,S2B-PH-K-S-GW JST PH 2-pin right angle,C157932,1,$0.1762,$0.18,https://www.lcsc.com/product-detail/C157932.html
+Main board,J2,S2B-PH-K-S-GW JST PH 2-pin right angle,C157932,1,$0.18,$0.18,https://www.lcsc.com/product-detail/C157932.html
 Main board,J3,PPTC081LFBN-RC female header 1x08 2.54mm (display),C3320851,1,$1.54,$1.54,https://www.lcsc.com/product-detail/C3320851.html
-Main board,J4,PPTC071LFBN-RC female header 1x07 2.54mm (audio amp),C5342086,1,$0.7901,$0.79,https://www.lcsc.com/product-detail/C5342086.html
-Main board,J5,PRPC002SAAN-RC pin header 1x02 2.54mm (power switch),C3346540,1,$0.0908,$0.09,https://www.lcsc.com/product-detail/C3346540.html
+Main board,J4,PPTC071LFBN-RC female header 1x07 2.54mm (audio amp),C5342086,1,$0.79,$0.79,https://www.lcsc.com/product-detail/C5342086.html
+Main board,J5,PRPC002SAAN-RC pin header 1x02 2.54mm (power switch),C3346540,1,$0.09,$0.09,https://www.lcsc.com/product-detail/C3346540.html
 Main board,J6,PPTC081LFBN-RC female header 1x08 2.54mm (button ribbon),C3320851,1,$1.54,$1.54,https://www.lcsc.com/product-detail/C3320851.html
 Main board,"SW1, SW2",TL3342F260QG tactile switch,C2886894,2,$1.15,$2.29,https://www.lcsc.com/product-detail/C2886894.html
-Main board,D1,YLED0805G green LED 0805,C25170728,1,$0.0097,$0.01,https://www.lcsc.com/product-detail/C25170728.html
-Main board,D2,YLED0805B blue LED 0805,C19273154,1,$0.0081,$0.01,https://www.lcsc.com/product-detail/C19273154.html
-Main board,D3,YLED0805R red LED 0805,C19171391,1,$0.0077,$0.01,https://www.lcsc.com/product-detail/C19171391.html
-Main board,"C1, C2, C3, C11",10uF 25V X5R 0603 capacitor,C344022,4,$0.4803,$1.92,https://www.lcsc.com/product-detail/C344022.html
-Main board,"C4, C6, C9, C10",100nF 50V X7R 0603 capacitor,C14663,4,$0.0191,$0.08,https://www.lcsc.com/product-detail/C14663.html
-Main board,"C5, C7, C8",1uF 25V X7R 0603 capacitor,C29936,3,$0.0225,$0.07,https://www.lcsc.com/product-detail/C29936.html
-Main board,"R1, R2",5.1k 1% 0603 resistor,C105580,2,$0.0059,$0.01,https://www.lcsc.com/product-detail/C105580.html
-Main board,R3,2k 5% 0603 resistor,C105581,1,$0.0062,$0.01,https://www.lcsc.com/product-detail/C105581.html
-Main board,"R4, R5",100k 1% 0603 resistor,C14675,2,$0.0057,$0.01,https://www.lcsc.com/product-detail/C14675.html
-Main board,"R6, R7",10k 1% 0603 resistor,C98220,2,$0.0061,$0.01,https://www.lcsc.com/product-detail/C98220.html
-Main board,"R10, R11, R12",1k 1% 0603 resistor,C22548,3,$0.0063,$0.02,https://www.lcsc.com/product-detail/C22548.html
-Button matrix,CHOC1-CHOC9,Kailh Choc low profile hotswap socket,,9,$0.78,$7.78,https://www.amazon.com/Mechkeeb-Kailh-Low-Hot-swappable-Socket/dp/B0BS3L174L
-Button matrix,,Kailh Choc low profile keyswitch,,9,$1.92,$11.06,https://www.amazon.com/KAILH-Official-Chocolate-Mechanical-Keyboard/dp/B0B3MNBPSP
-Button matrix,D1-D9,1N4148W diode SOD-123,C908248,9,$0.0084,$0.08,https://www.lcsc.com/product-detail/C908248.html
+Main board,D1,YLED0805G green LED 0805,C25170728,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C25170728.html
+Main board,D2,YLED0805B blue LED 0805,C19273154,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C19273154.html
+Main board,D3,YLED0805R red LED 0805,C19171391,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C19171391.html
+Main board,"C1, C2, C3, C11",10uF 25V X5R 0603 capacitor,C344022,4,$0.48,$1.92,https://www.lcsc.com/product-detail/C344022.html
+Main board,"C4, C6, C9, C10",100nF 50V X7R 0603 capacitor,C14663,4,$0.02,$0.08,https://www.lcsc.com/product-detail/C14663.html
+Main board,"C5, C7, C8",1uF 25V X7R 0603 capacitor,C29936,3,$0.02,$0.07,https://www.lcsc.com/product-detail/C29936.html
+Main board,"R1, R2",5.1k 1% 0603 resistor,C105580,2,$0.01,$0.01,https://www.lcsc.com/product-detail/C105580.html
+Main board,R3,2k 5% 0603 resistor,C105581,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C105581.html
+Main board,"R4, R5",100k 1% 0603 resistor,C14675,2,$0.01,$0.01,https://www.lcsc.com/product-detail/C14675.html
+Main board,"R6, R7",10k 1% 0603 resistor,C98220,2,$0.01,$0.01,https://www.lcsc.com/product-detail/C98220.html
+Main board,"R10, R11, R12",1k 1% 0603 resistor,C22548,3,$0.01,$0.02,https://www.lcsc.com/product-detail/C22548.html
+Button matrix,CHOC1-CHOC9,Kailh Choc low profile hotswap socket,,9,$0.78,$7.02,https://www.amazon.com/Mechkeeb-Kailh-Low-Hot-swappable-Socket/dp/B0BS3L174L
+Button matrix,,Kailh Choc low profile keyswitch,,9,$1.92,$17.28,https://www.amazon.com/KAILH-Official-Chocolate-Mechanical-Keyboard/dp/B0B3MNBPSP
+Button matrix,D1-D9,1N4148W diode SOD-123,C908248,9,$0.01,$0.08,https://www.lcsc.com/product-detail/C908248.html
 Button matrix,J1,Header 1x08 2.54mm (ribbon to main board),C3320851,1,$1.54,$1.54,https://www.lcsc.com/product-detail/C3320851.html
-Button matrix,"R1, R2, R3",10k 1% 0603 resistor,C98220,3,$0.0061,$0.02,https://www.lcsc.com/product-detail/C98220.html
+Button matrix,"R1, R2, R3",10k 1% 0603 resistor,C98220,3,$0.01,$0.02,https://www.lcsc.com/product-detail/C98220.html
 Off-board,,HiLetgo 2.8in ILI9341 240x320 SPI display module,,1,$16.39,$16.39,https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B
 Off-board,,MAX98357A I2S audio amp breakout,,1,$6.88,$6.88,https://www.amazon.com/MAX98357-MAX98357A-Amplifier-Interface-Raspberry/dp/B0DPJRLMDJ
-Off-board,,CQRobot speaker JST-PH 2.0 mm interface,,1,$7.99,$7.99,https://www.amazon.com/CQRobot-JST-PH2-0-Interface-Electronic-Projects/dp/B0738NLFTG
-Off-board,,EEMB 1100mAh single-cell LiPo battery with JST connector,,1,$6.15,$24.59,https://www.amazon.com/EEMB-1100mAh-Battery-Rechargeable-Connector/dp/B08VRYS8FT
+Off-board,,CQRobot speaker JST-PH 2.0mm interface,,1,$7.99,$7.99,https://www.amazon.com/CQRobot-JST-PH2-0-Interface-Electronic-Projects/dp/B0738NLFTG
+Off-board,,EEMB 1100mAh single-cell LiPo battery with JST connector,,1,$6.15,$6.15,https://www.amazon.com/EEMB-1100mAh-Battery-Rechargeable-Connector/dp/B08VRYS8FT
 Off-board,,Rocker power switch,,1,$1.35,$1.35,https://www.aliexpress.us/item/3256812208202705.html
 Off-board,,Jumper wires (board-to-board ribbon link),,1,$6.98,$6.98,https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78
-Off-board,,"3D printing filament for case, button cover, display mount, keycaps",,1,$20.00,$20.00,https://shop.polymaker.com/products/polymaker-pla-pro?variant=41550910652473
-Off-board,,PCBA fabrication for Main board and PCB for Buttons,,1,$50.65,$50.65, https://jlcpcb.com/  
+Off-board,,"PLA filament for case, button cover, display mount, keycaps",,1,$20.00,$20.00,https://shop.polymaker.com/products/polymaker-pla-pro?variant=41550910652473
+Off-board,,M3 screws and nuts,,FILL_QTY,FILL_PRICE,FILL_PRICE,FILL_LINK
+Off-board,,PCB fabrication: main board PCBA and button matrix bare PCB,,1,$50.65,$50.65,https://jlcpcb.com/
