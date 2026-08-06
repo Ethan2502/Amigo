@@ -169,15 +169,15 @@ Keycaps are 3D printed from `cad/stl/keycaps.stl`, so there is nothing to buy fo
 | Rocker power switch | 1 | $1.35 | $1.35 | [AliExpress](https://www.aliexpress.us/item/3256812208202705.html) |
 | Jumper wires, board-to-board ribbon link | 1 | $6.98 | $6.98 | [Amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78) |
 | PLA filament for case, button cover, display mount, keycaps | 1 | $20.00 | $20.00 | [Polymaker](https://shop.polymaker.com/products/polymaker-pla-pro?variant=41550910652473) |
-| M3 screws and nuts pack of 100 | 1 | $0.15 | $15.30 | https://www.mcmaster.com/products/screws/socket-head-screws-2~/steel-socket-head-screws~~/?s=m3+screws |
+| M3 screws and nuts pack of 100 | 1 | $15.30 | $15.30 | [McMaster](https://www.mcmaster.com/products/screws/socket-head-screws-2~/steel-socket-head-screws~~/?s=m3+screws) |
 | PCB fabrication: main board PCBA and button matrix bare PCB | 1 | $50.65 | $50.65 | [JLCPCB](https://jlcpcb.com/) |
-| | | | **$116.39 plus fasteners** | |
+| | | | **$131.69 plus fasteners** | |
 
 The Amazon parts ship in fixed pack sizes rather than the exact count the build uses. The Unit column is the per-item price and the Total is what one Amigo consumes, so your checkout total will be higher.
 
 ### Total
 
-**$157.80 plus fasteners** to build one Amigo: $15.47 for the main board, $25.94 for the button matrix, and $116.39 in off-board parts and fabrication. Fabrication is the single largest line at $50.65.
+**$173.10 plus fasteners** to build one Amigo: $15.47 for the main board, $25.94 for the button matrix, and $116.39 in off-board parts and fabrication. Fabrication is the single largest line at $50.65.
 
 ## Tools used
 
