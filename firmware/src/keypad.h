@@ -18,7 +18,7 @@ public:
 
     void begin() {
         for (uint8_t r = 0; r < ROWS; r++) {
-            pinMode(PIN_ROW[r], INPUT);   // hi-Z until scanned
+            pinMode(PIN_ROW[r], INPUT); // hi-Z until scanned
         }
         for (uint8_t c = 0; c < COLS; c++) {
             pinMode(PIN_COL[c], INPUT_PULLUP);
@@ -36,7 +36,7 @@ public:
         for (uint8_t r = 0; r < ROWS; r++) {
             pinMode(PIN_ROW[r], OUTPUT);
             digitalWrite(PIN_ROW[r], LOW);
-            delayMicroseconds(5);         // let the line settle
+            delayMicroseconds(5); // let the line settle
 
             for (uint8_t c = 0; c < COLS; c++) {
                 const bool raw = (digitalRead(PIN_COL[c]) == LOW);
@@ -51,7 +51,7 @@ public:
                 }
             }
 
-            pinMode(PIN_ROW[r], INPUT);   // release the row
+            pinMode(PIN_ROW[r], INPUT); // release the row
         }
         return changed;
     }

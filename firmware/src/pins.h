@@ -9,7 +9,7 @@ constexpr int PIN_BAT_SENSE = 4;
 
 // MAX98357A I2S audio
 constexpr int PIN_AUDIO_BCLK = 5;
-constexpr int PIN_AUDIO_LRC  = 6;
+constexpr int PIN_AUDIO_LRC = 6;
 constexpr int PIN_AUDIO_DOUT = 7;
 
 // MAX98357A SD_MODE. Not routed on rev A: this is the bodge wire from J4 pin 5
@@ -19,12 +19,12 @@ constexpr int PIN_AUDIO_DOUT = 7;
 constexpr int PIN_AUDIO_SD = 38;
 
 // ILI9341 2.8" SPI display
-constexpr int PIN_LCD_RST  = 8;
-constexpr int PIN_LCD_BL   = 9;
-constexpr int PIN_LCD_SCK  = 10;
+constexpr int PIN_LCD_RST = 8;
+constexpr int PIN_LCD_BL = 9;
+constexpr int PIN_LCD_SCK = 10;
 constexpr int PIN_LCD_MOSI = 11;
-constexpr int PIN_LCD_CS   = 12;
-constexpr int PIN_LCD_DC   = 13;
+constexpr int PIN_LCD_CS = 12;
+constexpr int PIN_LCD_DC = 13;
 
 // Kailh Choc 3x3 matrix
 constexpr int PIN_ROW[3] = {14, 15, 16};

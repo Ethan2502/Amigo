@@ -12,8 +12,8 @@
 #include "audio.h"
 
 TFT_eSPI tft;
-Keypad   keys;
-Audio    audio;
+Keypad keys;
+Audio audio;
 
 // Per-key tones, laid out to match the physical 3x3 grid (C major pentatonic).
 static const float KEY_TONES[9] = {
@@ -25,14 +25,14 @@ static const float KEY_TONES[9] = {
 // ---- display layout ----
 static constexpr int GRID_X = 40;
 static constexpr int GRID_Y = 90;
-static constexpr int CELL   = 50;
-static constexpr int GAP    = 6;
+static constexpr int CELL = 50;
+static constexpr int GAP = 6;
 
 static uint32_t lastHeartbeat = 0;
-static uint32_t lastBattery   = 0;
+static uint32_t lastBattery = 0;
 
 void setBacklight(uint8_t level) {
-    ledcWrite(BL_LEDC_CHANNEL, level);   // core 2.x takes a channel, not a pin
+    ledcWrite(BL_LEDC_CHANNEL, level); // core 2.x takes a channel, not a pin
 }
 
 float readBatteryVolts() {
@@ -93,7 +93,7 @@ void setup() {
     tft.setRotation(0);
     drawChrome();
 
-    analogSetPinAttenuation(PIN_BAT_SENSE, ADC_11db);  // ~0 to 3.1V usable range
+    analogSetPinAttenuation(PIN_BAT_SENSE, ADC_11db); // ~0 to 3.1V usable range
 
     keys.begin();
 
@@ -118,7 +118,7 @@ void setup() {
 }
 
 void loop() {
-    audio.update();   // services the deferred amplifier shutdown
+    audio.update(); // services the deferred amplifier shutdown
 
     if (keys.scan()) {
         drawGrid();
