@@ -109,7 +109,9 @@ Use M3 screws and nuts to screw everything in. There should be a hole for each s
 
 ### 7. Flash the Firmware
 
-Once firmware is written you can flash it. I have not written it yet I will update it later.
+Build and flash the PlatformIO project in `firmware/`. The current firmware
+includes a keypad-operated daily alarm and countdown timer; see
+[`firmware/README.md`](firmware/README.md) for controls and clock limitations.
 
 
 ## Bill of Materials
@@ -192,7 +194,9 @@ Not part of the build, listed for anyone reproducing it.
 
 ## Firmware
 
-Not written yet. The plan is firmware that lets people program the device, download or make games, and customize it for their needs, with over-the-wifi updates so the software keeps getting better.
+The firmware currently includes the alarm, countdown timer, keypad tone demo,
+display, battery readout, and status LED. Programmable apps, games, and over-
+the-air updates are future work.
 
 ## Credits
 
